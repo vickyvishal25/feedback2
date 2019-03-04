@@ -1,0 +1,63 @@
+<!doctype html> 
+<html lang="en">
+ <head>
+  <title>feedback  form design</title>
+  <link  rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body>
+ <div class="contact-title">
+ <h1> Thank you for choosing Make My Cake! 
+ Hope your sweet tooth was pleasured</h1>
+
+ <h2> Please help us improve by taking the below feedback and get a chance to win a free CUPCAKE!!.</h2>
+ </div>
+ <div class="contact-form">
+   <p>
+    <form id="contact-form" method="post" action="contact-form.php">
+ <input name="name" type="text" class="form-control"  placeholder="your name" required>
+ <br>
+ <input name="email" type="email" class="form-control"  placeholder="your email" required>
+ <br>
+    <label>Rate your food - store</label><br>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="bad" >
+                                        Bad 
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="average" >
+                                        Average 
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="good" >
+                                        Good 
+                                    </label><br>
+ <textarea class="form-control" type="textarea" name="comments" id="comments" placeholder="Your Comments" maxlength="6000" rows="7" required></textarea><br>
+
+ 
+									<br>
+									<br>
+									<br>
+									  <label>Rate Delivery</label><br>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="bad" >
+                                        Bad 
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="average" >
+                                        Average 
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="experience" id="radio_experience" value="good" >
+                                        Good 
+                                    </label>
+									<br>
+
+  <textarea class="form-control" type="textarea" name="comments" id="comments" placeholder="Your Comments" maxlength="6000" rows="7" required></textarea><br>
+ <input type="submit" class="form-control submit" value="SUBMIT RESPONSE"><br>
+ 
+                              
+</div>
+
+   
+ </body>
+</html>
